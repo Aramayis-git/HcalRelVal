@@ -740,6 +740,9 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ref_hist2D->GetYaxis()->SetRangeUser(yAxisMin, yAxisMax);
             val_hist2D->GetYaxis()->SetRangeUser(yAxisMin, yAxisMax);
         }
+        //Set bin minimum to 0
+        ref_hist2D->SetMinimum(0.0);
+        val_hist2D->SetMinimum(0.0);
 
         TLegend *leg1 = new TLegend(0.50, 0.91, 0.84, 0.99, "", "brNDC");
         leg1->SetBorderSize(2);
