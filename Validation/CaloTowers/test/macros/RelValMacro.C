@@ -121,6 +121,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     std::string histDirN = NormHist.substr(0, slashLocN);
     if(slashLocN < NormHist.size() - 1) NormHist = NormHist.substr(slashLocN + 1, NormHist.size());
 
+    std::cout << "Processing \"" << histDir << "/" << histName << "\"" << std::endl;
+
     //Get objects from TFiles
     TDirectory *refTD = dfRef(ref_file, histDir);
     TObject *refObj = 0;
@@ -152,12 +154,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     else 
     {
 	std::cout << "Cannot find directory \"" << histDirN << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
-	return;
     }
     if(!refObjN)
     {
 	std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
-	return;
     }
 
     TDirectory *valTD = dfVal(val_file, histDir);
@@ -188,13 +188,40 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     else
     {
 	std::cout << "Cannot find directory \"" << histDirN << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
-	return;
     }
     if(!valObjN)
     {
 	std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
-	return;
     }
+
+    //Try to continue processing even if N_HB is missing
+    //We only care if the ratio flag is set
+    //If we can't find any way to normalize the plots, unset the ratioflag
+    if(std::stoi(ratioFlag) == 1){
+    if(!refTDN && !valTDN)
+       {
+           std::cout << "Cannot find directory \"" << histDirN << "\" in either file \"" << std::endl;
+           ratioFlag = "0";
+       }
+
+       if(!refObjN && !valObjN)
+       {
+           std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in either file \"" << std::endl;
+           ratioFlag = "0";
+       }
+       else if(!valObjN)
+       {
+           valObjN = refObjN->Clone();
+           std::cout << "Using histogram \"" << NormHist << "from file \"" << ref_file->GetName() << std::endl;
+       }
+       else if(!refObjN)
+       {
+           refObjN = valObjN->Clone();
+           std::cout << "Using histogram \"" << NormHist << "from file \"" << val_file->GetName() << std::endl;
+       }
+    }// Make sure we can normalize ratio plots
+
+    std::cout << "Loaded \"" << histDir << "/" << histName << "\"" << std::endl;
 
     //Format canvas
     TCanvas *myc = 0;
@@ -211,8 +238,13 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 // Ratio Flag
 
     float nRef =1, nVal = 1;
-    if(std::stoi(ratioFlag)) {
    
+    std::cout << "Ratio Flag: " << std::stoi(ratioFlag) << std::endl;
+
+    if(std::stoi(ratioFlag) == 1) {
+   
+        std::cout << "Histogram will include ratio" << std::endl;
+
 	TH1* refN_HB = (TH1*)refObjN;
 	TH1* valN_HB = (TH1*)valObjN;
 
@@ -283,7 +315,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         TH1* ratio_hist1;
         
         // Ratio Flag
-        if(std::stoi(ratioFlag)){
+        if(std::stoi(ratioFlag) == 1){
 	    //Let's normalize the val plot to have the same number of events as the ref plot
 
 	    val_hist1->Scale(nRef/nVal);
@@ -395,7 +427,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         //Title
 //        if (xTitleCheck != "NoTitle") ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
         ref_hist1->GetXaxis()->SetTitle("");
-        if (xTitleCheck != "NoTitle") ratio_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+        if (xTitleCheck != "NoTitle" && std::stoi(ratioFlag) == 1) ratio_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+        if (xTitleCheck != "NoTitle" && std::stoi(ratioFlag) != 1) ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
 
         //Different histo colors and styles
         ref_hist1->SetTitle("");
@@ -426,7 +459,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             // Title Time
             
             //Draw and save histograms
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 pad1->cd();
             }
             ref_hist1->SetFillColor(40);//42 Originally, now 40 which is light brown
@@ -436,7 +469,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             else val_hist1->Draw("same e0");
             
             // Ratio Flag
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 //Draw ratio
                 pad2->cd();
                 ratio_hist1->Draw();
@@ -467,7 +500,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             
             
             //Draw and save histograms
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 pad1->cd();
             }
             ref_hist1->Draw("hist");
@@ -476,7 +509,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
             
             // Ratio Flag
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 //Draw ratio
                 pad2->cd();
                 ratio_hist1->Draw();
