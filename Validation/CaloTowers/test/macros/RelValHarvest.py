@@ -9,6 +9,7 @@ parser = OptionParser(usage=usage,version=version)
 parser.add_option("-p", "--printDataSets", action="store_true", dest="printDS", default=False, help="Print datasets without attempting to download.")
 parser.add_option("-M", "--MC", action="store_true", dest="getMC", default=False, help="Get DQM files for MC campaign.")
 parser.add_option("-D", "--DATA", action="store_true", dest="getDATA", default=False, help="Get DQM files for DATA campaign.")
+parser.add_option("-2", "--2023", action="store_true", dest="get2023", default=False, help="Get DQM files for 2023 campaign.")
 (options, args) = parser.parse_args()
 
 ##Begin declaration of Functions
@@ -114,6 +115,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
+ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_TuneZ2star_14TeV__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
 dsDATAFlags = {'256677__JetHT__':'JetHT','256677__ZeroBias__':'ZeroBias'} #New_original
@@ -141,10 +143,11 @@ if len(args) < 1:
     exit(0)
 
 #Make sure a Dataset is specified
-if not options.getMC and not options.getDATA:
+if not options.getMC and not options.getDATA and not options.get2023:
     print "You must specify a dataset:"
     print "    -M : Monte Carlo"
     print "    -D : Data"
+    print "    -2 : 2023"
     exit(0)
 
 # gather input parameter
@@ -179,6 +182,15 @@ if options.getMC:
                  relValDIR = relValDIR,
                  printDS = options.printDS,
                  camType = "MC")
+
+if options.get2023:
+    getDataSets( dsFlags = ds2023Flags,
+                 curl = curlMC,
+                 label = label,
+                 slabel = slabel,
+                 relValDIR = relValDIR,
+                 printDS = options.printDS,
+                 camType = "2023")
 
 if options.getDATA:
     getDataSets( dsFlags = dsDATAFlags,
