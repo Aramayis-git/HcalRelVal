@@ -102,12 +102,12 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
     # Copy the single pion scan part from Salavat's directory
     #    spFileName = "pi50scan%s_fullGeom_ECALHCAL_CaloTowers.root"%slabel #->original line
-    spFileName = "pi50scan%s_ECALHCAL_CaloTowers.root"%slabel 
-    cpCommand = "cp /afs/cern.ch/user/a/abdullin/public/pi50_scan/%s ."%spFileName
-    if not os.path.isfile(spFileName):
-        print cpCommand
-        os.system(cpCommand)
-        print ""
+    #spFileName = "pi50scan%s_ECALHCAL_CaloTowers.root"%slabel 
+    #cpCommand = "cp /afs/cern.ch/user/a/abdullin/public/pi50_scan/%s ."%spFileName
+    #if not os.path.isfile(spFileName):
+    #    print cpCommand
+    #    os.system(cpCommand)
+    #    print ""
 
 ##End Functions
 
@@ -115,7 +115,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
-ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_TuneZ2star_14TeV__':'MinBias'}
+ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_14TeV__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
 dsDATAFlags = {'256677__JetHT__':'JetHT','256677__ZeroBias__':'ZeroBias'} #New_original

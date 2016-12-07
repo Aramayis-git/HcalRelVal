@@ -2866,6 +2866,88 @@
         "valColor": 42,
         "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth2_HB"
     },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth3_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth3_HB"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth4_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth4_HB"
+    },
     "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth2_HE": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
@@ -3603,6 +3685,88 @@
         "statFlag": "Statrv",
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_signal_amplitude_depth2_HB"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth3_HB": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth3_HB.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth3_HB"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth4_HB": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth4_HB.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth4_HB"
     },
     "HcalDigiTask/HcalDigiTask_signal_amplitude_depth2_HE": {
         "chi2Flag": "Chi2",
@@ -7585,7 +7749,7 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HB depth 2: occupancy vs ieta"
+        "xAxisTitle": "HB depth 3: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HB4": {
         "chi2Flag": "noChi2",
@@ -7612,7 +7776,7 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HB depth 2: occupancy vs ieta"
+        "xAxisTitle": "HB depth 4: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HB5": {
         "chi2Flag": "noChi2",
