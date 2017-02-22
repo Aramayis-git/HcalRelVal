@@ -359,7 +359,17 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 //            y2axis->SetTitleSize(0.12);
 //            y2axis->SetRangeUser(0,2.5);
 //            y2axis->SetLabelSize(y2size);
-            
+
+// Sanitizing axis inputs    
+            //Min/Max Convetion: Default AxisMin = 0. Default AxisMax = -1.
+            //xAxis
+            if (xAxisMin == 0) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
+            if (xAxisMax < 0) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
+	
+	    //Sanitize xAxis inputs
+            if (xAxisMin < ref_hist1->GetXaxis()->GetXmin()) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
+	    if (xAxisMax > ref_hist1->GetXaxis()->GetXmax()) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
+
             ratio_hist1->SetTitle("");
             ratio_hist1->SetLineStyle(1);
             ratio_hist1->SetMarkerStyle(1);
@@ -414,6 +424,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         if (xAxisMax > 0 || xAxisMin != 0) {
             ref_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
             val_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
+
         }
         //yAxis
         if (yAxisMin != 0) ref_hist1->SetMinimum(yAxisMin);
