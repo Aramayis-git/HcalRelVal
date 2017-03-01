@@ -39,6 +39,678 @@
         "statFlag": "noStat",
         "valColor": 42,
         "xAxisTitle": "HB CaloTowers EM Timing vs Energy"
+    }, 
+    "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth3_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth4_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth5_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth5_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth5_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth6_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth6_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth6_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth7_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth7_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth7_HE"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HF"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HF"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth3_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HF"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth4_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HF"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HB"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HB"
+    },
+   "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HO": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HO.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HO"
     },
     "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_HE": {
         "chi2Flag": "noChi2",
