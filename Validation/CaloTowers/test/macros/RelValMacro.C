@@ -36,7 +36,7 @@ void prn(T1 s1, T2 s2)
 
 void RelValMacro(std::string seriesOfTubes);
 void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::string val_vers, std::string histName, std::string outLabel, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax,
-                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2 = "");
+                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string normFlag, std::string histName2 = "");
 template<class T>
 void setObjProps(T obj);
 
@@ -79,6 +79,7 @@ void RelValMacro(std::string seriesOfTubes)
     int valCol = std::stoi(props[17]);
     std::string xAxisTitle = props[18];
     std::string histName2 = props[19];
+    std::string normFlag = props[20];
     
     //Warning!!! This rootlogon hacks the root color pallate.  This should probably be rewritten.
     setColors();
@@ -93,7 +94,7 @@ void RelValMacro(std::string seriesOfTubes)
         if(histName2 == "none") histName2 = "";
         
         //Make plot
-        ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, ratioFlag, refCol, valCol, xAxisTitle, histName2);
+        ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, ratioFlag, refCol, valCol, xAxisTitle, histName2, normFlag);
 	}
 	else
 	{
@@ -108,7 +109,7 @@ void RelValMacro(std::string seriesOfTubes)
 }
 
 void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::string val_vers, std::string histName, std::string outLabel, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax,
-                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2)
+                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2, std::string normFlag)
 {
     std::string NormHist = "HcalRecHitTask/N_HB";
 
@@ -317,7 +318,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         // Ratio Flag
         if(std::stoi(ratioFlag) == 1){
 	    //Let's normalize the val plot to have the same number of events as the ref plot
-
+	    //But only if normFlag isn't tripped
+	    if(normFlag.compare("Norm") == 0)
 	    val_hist1->Scale(nRef/nVal);
         
             //Create Copies (Clones) to use in Ratio Plot
