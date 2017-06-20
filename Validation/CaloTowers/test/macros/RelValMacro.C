@@ -44,7 +44,7 @@ class DirectoryFinder
 {
 private:
     std::map<std::string, TDirectory*> ptdMap;
-    TDirectory* findDirectory( TDirectory *target, std::string& s);
+    TDirectory* findDirectory( TDirectory *target, std::string& s, int dig = 2);
 public:
     TDirectory* operator()(TDirectory *target, std::string& s);
 } dfRef, dfVal;
@@ -824,7 +824,7 @@ TDirectory* DirectoryFinder::operator()(TDirectory *target, std::string& s)
     else                               return ptdMap[s];
 }
 
-TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
+TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s, int dig)
 {
     TDirectory *retval = 0;
 
@@ -833,6 +833,9 @@ TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
     TKey *key, *oldkey=0;
     while((key = (TKey*)nextkey()))
     {
+
+        //std::cout << "Found " << key->ReadObj()->GetName() << std::endl;
+
 	//keep only the highest cycle number for each key                                                                                                                                                                                    
 	if (oldkey && !strcmp(oldkey->GetName(),key->GetName())) continue;
 
@@ -848,13 +851,12 @@ TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
 
 	    if(strcmp(s.c_str(), obj->GetName()) == 0) return (TDirectory*)obj;
 
-	    if((retval = findDirectory((TDirectory*)obj, s))) break;
+	    if((retval = findDirectory((TDirectory*)obj, s, dig-1))) break;
 
-	}
-	else
-	{
-	    break;
-	}
+	} else if(dig < 1){
+            break;
+        }
+
     }
 
     return retval;
