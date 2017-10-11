@@ -258,7 +258,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         pad1->SetBottomMargin(1); // Upper and lower plots are joined (0) or separate (1)
         pad1->SetGridx();         // Vertical grid
 	pad1->SetFillColor(kCyan-10); //spandey
-	pad2 = new TPad("pad2","pad2", 0.0, 0.03, 1.0, 0.3, 0);  //spandey
+	pad2 = new TPad("pad2","pad2", 0.0, 0.03, 1.0, 0.3, 0);  //spandey updated pad size
         pad2->SetTopMargin(0);
         pad2->SetBottomMargin(0.2);
         pad2->SetGridx(); // vertical grid

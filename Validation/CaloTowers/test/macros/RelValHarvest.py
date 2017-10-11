@@ -49,7 +49,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                     # extract dataset path
                     path = line.split('\'')[1].strip()
                     #print "Getting DQM output from dataset: %s"%path
-                    if (path.find("Ideal") > 0 or path.find("FastSim") > 0):
+                    if (path.find("Ideal") > 0 or path.find("FastSim") > 0):  #skip for unnecessary samples
                         continue
                     print path
                     if printDS:
