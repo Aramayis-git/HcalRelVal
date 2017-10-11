@@ -257,12 +257,13 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         pad1 = new TPad("pad1","pad1", 0.0, 0.3, 1.0, 1.0, 0);
         pad1->SetBottomMargin(1); // Upper and lower plots are joined (0) or separate (1)
         pad1->SetGridx();         // Vertical grid
-
-        pad2 = new TPad("pad2","pad2", 0.0, 0.05, 1.0, 0.3, 0);
+	pad1->SetFillColor(kCyan-10); //spandey
+	pad2 = new TPad("pad2","pad2", 0.0, 0.03, 1.0, 0.3, 0);  //spandey
         pad2->SetTopMargin(0);
         pad2->SetBottomMargin(0.2);
         pad2->SetGridx(); // vertical grid
         pad2->SetGridy(); // horizontal grid
+	pad2->SetFillColor(kCyan-10); //spandey
 
         pad1->Draw();
         pad2->Draw();
@@ -378,8 +379,9 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ratio_hist1->SetMarkerSize(0.02);
             
             //Format Ratio Plot
+	    //lets get schwifty
             float pad2width = pad2->GetWw();
-            float pad2height = pad2->GetWh() * pad2->GetAbsHNDC();
+            float pad2height = pad2->GetWh() * pad2->GetAbsHNDC() ;
             float x2pixels = 100;
             float y2pixels = 15;
             float x2size = x2pixels / pad2width;
@@ -388,9 +390,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             TAxis* x2axis = ratio_hist1->GetXaxis();
             TAxis* y2axis = ratio_hist1->GetYaxis();
             
-            x2axis->SetTitleOffset(1.0); // Important for seeing x-axis title!
-            x2axis->SetTitleSize(0.15);
-            x2axis->SetLabelSize(x2size);
+
+	    x2axis->SetTitleOffset(1.0); // Important for seeing x-axis title!
+	    x2axis->SetTitleSize(0.1); //spandey
+            x2axis->SetLabelSize(x2size*0.64);
             x2axis->SetRangeUser(xAxisMin, xAxisMax);
             
             y2axis->SetTitle("(val - ref)/ref");
@@ -485,8 +488,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             if(std::stoi(ratioFlag) == 1){
                 //Draw ratio
                 pad2->cd();
+	        //pad1->cd();
                 ratio_hist1->Draw();
                 pad1->cd();
+		//pad2->cd();
             }
 
             //Get p-value from chi2 test
