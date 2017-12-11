@@ -3456,7 +3456,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3498,7 +3498,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3540,7 +3540,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3582,7 +3582,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3624,7 +3624,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3666,7 +3666,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3708,7 +3708,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3750,7 +3750,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3792,7 +3792,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3834,7 +3834,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3876,7 +3876,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3918,7 +3918,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3960,7 +3960,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth5_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4002,7 +4002,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth6_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4044,7 +4044,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth7_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4086,7 +4086,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7443,21 +7443,21 @@
         "outLabel": "N_HF.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 10,
-            "xAxisMax": 500.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -7742,7 +7742,30 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -7770,7 +7793,30 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -7798,6 +7844,22 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "rangeMedium": {
             "rebin": 1,
             "xAxisMax": 42.0,
@@ -7805,6 +7867,14 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",

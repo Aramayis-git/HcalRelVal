@@ -49,6 +49,8 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                     # extract dataset path
                     path = line.split('\'')[1].strip()
                     #print "Getting DQM output from dataset: %s"%path
+                    if (path.find("Ideal") > 0 or path.find("FastSim") > 0):  #skip for unnecessary samples
+                        continue
                     print path
                     if printDS:
                         continue
@@ -118,7 +120,8 @@ dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelV
 ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_14TeV__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
-dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias'} #New_original
+#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias'} #New_original
+dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias'} #2016B & 2017B dataset
 #dsDATAFlags = {'256677__SingleMuon__':'SingleMuon'} #New_original
 #dsDATAFlags = {'254790__JetHT__':'JetHT','254790__ZeroBias__':'ZeroBias','254790__SingleMuon__':'SingleMuon'} #New_new
 # filename prefix 
