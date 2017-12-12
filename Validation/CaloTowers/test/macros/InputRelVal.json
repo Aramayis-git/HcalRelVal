@@ -2084,7 +2084,7 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog", 
-        "normFlag": "Norm",
+        "normFlag": "NoNorm",
         "outLabel": "CaloTowers_occupancy_vs_ieta.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3030,14 +3030,14 @@
         "valColor": 2,
         "xAxisTitle": "HcalDigiTask_Ndigis_HO"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HB": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "Log", 
         "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_5_frac_HB.gif",
+        "outLabel": "HcalDigiTask_SOI_frac_HB.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -3070,16 +3070,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_5_frac_HB"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HB"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HE": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "Log", 
         "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_5_frac_HE.gif",
+        "outLabel": "HcalDigiTask_SOI_frac_HE.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -3112,16 +3112,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_5_frac_HE"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HE"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HF": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HF": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "Log", 
         "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_3_frac_HF.gif",
+        "outLabel": "HcalDigiTask_SOI_frac_HF.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 2.0,
@@ -3154,58 +3154,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_3_frac_HF"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HF"
     },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HB": {
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "Log", 
         "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_6_7_frac_HB.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_6_7_frac_HB"
-    },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HE": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log", 
-        "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_6_7_frac_HE.gif",
+        "outLabel": "HcalDigiTask_postSOI_frac_HB.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -3238,16 +3196,58 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_6_7_frac_HE"
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HB"
     },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HF": {
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "Log", 
         "normFlag": "Norm",
-        "outLabel": "HcalDigiTask_bin_4_5_frac_HF.gif",
+        "outLabel": "HcalDigiTask_postSOI_frac_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HF": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_postSOI_frac_HF.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 2.0,
@@ -3280,7 +3280,7 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_4_5_frac_HF"
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HF"
     },
     "HcalDigiTask/HcalDigiTask_number_of_amplitudes_above_10fC_HB": {
         "chi2Flag": "Chi2",
