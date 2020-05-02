@@ -49,8 +49,7 @@ cp ../html_indices/RelVal_CaloTowers.html TTbar/CaloTowers/index.html
 cp ../html_indices/RelVal_HcalDigis.html  TTbar/HcalDigis/index.html
 cp ../html_indices/RBX.html               TTbar/RBX/index.html
 
-#cd ../
-
+cd ../
 
 #Process Startup TTbar
 #root -b -q 'RelValMacro.C("'${OLD_VERS}_Startup'","'${NEW_VERS}_Startup'","'HcalRecHitValidationRelVal_TTbar_Startup_${OLD_VERS}_PileUp.root'","'HcalRecHitValidationRelVal_TTbar_Startup_${NEW_VERS}_PileUp.root'","InputRelVal_Medium.txt",'${harvest}')'
@@ -60,30 +59,5 @@ mv *HcalDigi*.gif   ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/TTbar/HcalDigis/
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/TTbar/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/TTbar/RBX/
 mv *gif             ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/TTbar/RecHits/
-
-
-#ZMM
-mkdir ZMM
-mkdir ZMM/HcalDigis
-mkdir ZMM/CaloTowers
-mkdir ZMM/RecHits
-mkdir ZMM/RBX
-
-cat ../html_indices/RelVal_RecHits.html | sed -e s/DATA_SAMPLE/TTbar/ > ZMM/RecHits/index.html
-
-cp ../html_indices/RelVal_CaloTowers.html ZMM/CaloTowers/index.html
-cp ../html_indices/RelVal_HcalDigis.html  ZMM/HcalDigis/index.html
-cp ../html_indices/RBX.html               ZMM/RBX/index.html
-
-cd ../
-
-#Process Startup TTbar
-#root -b -q 'RelValMacro.C("'${OLD_VERS}_Startup'","'${NEW_VERS}_Startup'","'HcalRecHitValidationRelVal_TTbar_Startup_${OLD_VERS}_PileUp.root'","'HcalRecHitValidationRelVal_TTbar_Startup_${NEW_VERS}_PileUp.root'","InputRelVal_Medium.txt",'${harvest}')'
-./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_ZMM_${OLD_VERS}.root HcalRecHitValidationRelVal_ZMM_${NEW_VERS}.root rangeMediumPileup
-
-mv *HcalDigi*.gif   ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/ZMM/HcalDigis/
-mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/ZMM/CaloTowers/
-mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/ZMM/RBX/
-mv *gif             ${NEW_VERS}_vs_${OLD_VERS}_RelVal_PileUp/ZMM/RecHits/
 
 exit

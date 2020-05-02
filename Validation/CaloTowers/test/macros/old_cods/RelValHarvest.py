@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 
 import sys, os, re
 
@@ -49,9 +49,9 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                     # extract dataset path
                     path = line.split('\'')[1].strip()
                     #print "Getting DQM output from dataset: %s"%path
-                    if (path.find("Ideal") > 0 or path.find("design") > 0 or path.find("FastSim") > 0 or path.find("DQM") < 0 or path.find("Pixel") > 0 ):  #skip for unnecessary samples
+                    if (path.find("Ideal") > 0 or path.find("FastSim") > 0):  #skip for unnecessary samples
                         continue
-                    print path.split("/")[-1] #path
+                    print path
                     if printDS:
                         continue
 
@@ -80,7 +80,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                         info = info.strip("_")
 
                     ofn = ofnBlank%{"sample":dsFlags[str],"label":slabel,"info":info}
-                    print "ofn = ",ofn
+                
                     #Check if file exists already
                     if not os.path.isfile(ofn):
                         # copy file with curl
@@ -118,16 +118,10 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
 ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_14TeV__':'MinBias'}
-
-#dsDATAFlags = {'301998__JetHT__':'JetHT', '301998__ZeroBias__':'ZeroBias'}  #Original
-#dsDATAFlags = {'305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} # 2017F
-dsDATAFlags = {'297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias'} # 2017B
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias'} #2016B & 2017B dataset
-
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias','302663__JetHT__':'JetHT','302663__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
-
-
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias','305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
+#dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
+#dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
+#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias'} #New_original
+dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias'} #2016B & 2017B dataset
 #dsDATAFlags = {'256677__SingleMuon__':'SingleMuon'} #New_original
 #dsDATAFlags = {'254790__JetHT__':'JetHT','254790__ZeroBias__':'ZeroBias','254790__SingleMuon__':'SingleMuon'} #New_new
 # filename prefix 

@@ -49,6 +49,7 @@ public:
     TDirectory* operator()(TDirectory *target, std::string& s);
 } dfRef, dfVal;
 
+
 void RelValMacro(std::string seriesOfTubes)
 {
     //Split the string passed from the python driver
@@ -79,12 +80,7 @@ void RelValMacro(std::string seriesOfTubes)
     std::string xAxisTitle = props[18];
     std::string histName2 = props[19];
     std::string normFlag = props[20];
-
-    if(strcmp(histName.c_str(),"HcalDigiTask/HcalDigiTask_signal_amplitude_HE") == 0) {
-
-      std::cout<<"=================="<<std::endl;
-      std::cout<<xAxisMin<< "  "<<xAxisMax <<std::endl;
-    }
+    
     //Warning!!! This rootlogon hacks the root color pallate.  This should probably be rewritten.
     setColors();
     
@@ -139,9 +135,6 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     {
         refObj = refTD->Get(histName.c_str());
         if(refObj) refObj = refObj->Clone();
-        std::cout<<"Name = "<<refTD->GetName()<<std::endl;
-        TDirectory *one_step_up = (TDirectory *)refTD->GetMother();
-        std::cout<<"Directory Name = " <<one_step_up->GetMother()->GetName()<<std::endl;
     }
     else 
     {
@@ -834,13 +827,11 @@ TDirectory* DirectoryFinder::operator()(TDirectory *target, std::string& s)
 {
     if(ptdMap.find(s) == ptdMap.end()) return (ptdMap[s] = findDirectory(target, s));
     else                               return ptdMap[s];
-    //std::cout << "Debug: TDirectory " <<findDirectory()<<std::endl;
 }
 
 TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s, int dig)
 {
     TDirectory *retval = 0;
- //   std::cout << "Debug: TDirectory " <<retval<<std::endl;
 
     // loop over all keys in this directory                                                                                                                                                                                                  
     TIter nextkey(target->GetListOfKeys());

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 #RelValMacro.py
 
 import sys
@@ -19,7 +19,6 @@ if len(sys.argv) == 6:
 	
     with open('InputRelVal.json', 'r') as fp:
         inputFile = json.load(fp)
-        #print "SM_Debug1 inputFile= ", inputFile
         for histogram in inputFile:
             if range in inputFile[histogram]:
                 if inputFile[histogram]['drawSwitch']:
@@ -42,7 +41,6 @@ if len(sys.argv) == 6:
                     histName2 = spaceEscape(inputFile[histogram]['histName2'])
                     normFlag = spaceEscape(inputFile[histogram]['normFlag'])
                     cmd = ref_vers + "|" + val_vers + "|" + rfname + "|" + vfname + "|" + histName + "|" + ofileName + "|" + nRebin + "|" + xAxisMin + "|" + xAxisMax + "|" + yAxisMin + "|" + yAxisMax + "|" + dimFlag + "|" + statFlag + "|" + chi2Flag + "|" + logFlag + "|" + ratioFlag + "|" + refColor + "|" + valColor + "|" + xAxisTitle + "|" + histName2 + "|" + normFlag
-                    #print "SM_Debug2 CMD= ", cmd
                     RelValMacro.RelValMacro(cmd)
 else:
     print "Usage: ./RelValMacro.py ref_vers val_vers ref_file_name val_file_name range[High/Medium/Low]"

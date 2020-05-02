@@ -1,4 +1,4 @@
-#!/bin/env tcsh
+#!/bin/tcsh
 
 #Check to see if the CMS environment is set up
 if ($?CMSSW_BASE != 1) then
@@ -71,7 +71,7 @@ cd ..
 
 #Process Startup Jet
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}_Startup'","'${NEW_VERS}_Startup'","'HcalRecHitValidationRelVal_Jet_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_Jet_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_JetHT_${OLD_VERS}.root HcalRecHitValidationRelVal_JetHT_${NEW_VERS}.root rangeJetHT
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_JetHT_${OLD_VERS}.root HcalRecHitValidationRelVal_JetHT_${NEW_VERS}.root rangeMediumData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/RBX/
@@ -88,7 +88,7 @@ mv *gif             ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/RecHits/
 
 #Process Startup ZeroBias
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}'","'${NEW_VERS}'","'HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root rangeZeroBias
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root rangeMediumData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/ZeroBias/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/ZeroBias/RBX/
