@@ -9,13 +9,13 @@
 <hr>
 <A HREF= "HB_CaloTowers_MET_HB.gif">
 <img src="HB_CaloTowers_MET_HB.gif" width=32%> </A>
-<A HREF= "HB_CaloTowers_SET_HB.gif">
-<img src="HB_CaloTowers_SET_HB.gif" width=32%> </A>
-<A HREF= "HB_CaloTowers_Ntowers_HB.gif">
-<img src="HB_CaloTowers_Ntowers_HB.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_SET_HB.gif">
+<img src="CaloTowersTask_SET_HB.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_number_of_fired_towers_HB.gif">
+<img src="CaloTowersTask_number_of_fired_towers_HB.gif" width=32%> </A>
 <p>
-<A HREF= "HB_CaloTowers_Energy_in_ECAL_HB.gif">
-<img src="HB_CaloTowers_Energy_in_ECAL_HB.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_energy_ECAL_HB.gif">
+<img src="CaloTowersTask_energy_ECAL_HB.gif" width=48%> </A>
 <A HREF= "HB_CaloTowers_Energy_in_HCAL_HB.gif">
 <img src="HB_CaloTowers_Energy_in_HCAL_HB.gif" width=48%> </A>
 
@@ -37,39 +37,6 @@
 
 <hr>
 <p>
-<b> HE CaloTowers </b> <br>
-<p>
-<hr>
-<A HREF= "HE_CaloTowers_MET_HE.gif">
-<img src="HE_CaloTowers_MET_HE.gif" width=32%> </A>
-<A HREF= "HE_CaloTowers_SET_HE.gif">
-<img src="HE_CaloTowers_SET_HE.gif" width=32%> </A>
-<A HREF= "HE_CaloTowers_Ntowers_HE.gif">
-<img src="HE_CaloTowers_Ntowers_HE.gif" width=32%> </A>
-<p>
-<A HREF= "HE_CaloTowers_Energy_in_ECAL_HE.gif">
-<img src="HE_CaloTowers_Energy_in_ECAL_HE.gif" width=48%> </A>
-<A HREF= "HE_CaloTowers_Energy_in_HCAL_HE.gif">
-<img src="HE_CaloTowers_Energy_in_HCAL_HE.gif" width=48%> </A>
-
-<A HREF= "HE_CaloTowers_EM_Timing_HE.gif">
-<img src="HE_CaloTowers_EM_Timing_HE.gif" width=48%> </A>
-<A HREF= "HE_CaloTowers_HAD_Timing_HE.gif">
-<img src="HE_CaloTowers_HAD_Timing_HE.gif" width=48%> </A>
-<A HREF= "HE_CaloTowers_EM_Energy_Timing_HE.gif">
-<img src="HE_CaloTowers_EM_Energy_Timing_HE.gif" width=48%> </A>
-<A HREF= "HE_CaloTowers_HAD_Energy_Timing_HE.gif">
-<img src="HE_CaloTowers_HAD_Energy_Timing_HE.gif" width=48%> </A>
-
-<A HREF= "Hcal_HE_CaloTowers_numBadCells.gif">
-<img src="Hcal_HE_CaloTowers_numBadCells.gif" width=32%> </A>
-<A HREF= "Hcal_HE_CaloTowers_numRcvCells.gif">
-<img src="Hcal_HE_CaloTowers_numRcvCells.gif" width=32%> </A>
-<A HREF= "Hcal_HE_CaloTowers_numPrbCells.gif">
-<img src="Hcal_HE_CaloTowers_numPrbCells.gif" width=32%> </A>
-
-<hr>
-<p>
 <b> HF CaloTowers </b> <br>
 <p>
 <hr>
@@ -80,8 +47,8 @@
 <A HREF= "HF_CaloTowers_Ntowers_HF.gif">
 <img src="HF_CaloTowers_Ntowers_HF.gif" width=32%> </A>
 <p>
-<A HREF= "CaloTowersTask_energy_ECAL_HF.gif">
-<img src="CaloTowersTask_energy_ECAL_HF.gif" width=48%> </A>
+<A HREF= "HF_CaloTowers_Energy_in_ECAL_HF.gif">
+<img src="HF_CaloTowers_Energy_in_ECAL_HF.gif" width=48%> </A>
 <A HREF= "HF_CaloTowers_Energy_in_HCAL_HF.gif">
 <img src="HF_CaloTowers_Energy_in_HCAL_HF.gif" width=48%> </A>
 

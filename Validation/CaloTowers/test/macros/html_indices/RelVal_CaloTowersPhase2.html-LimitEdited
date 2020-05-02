@@ -1,0 +1,95 @@
+<p>
+<p>
+<font color="#aa0000"> >>> click on thumbnail to get a full-size plot </font>
+
+<hr>
+<p>
+<b> HB CaloTowers </b> <br>
+<p>
+<hr>
+<A HREF= "CaloTowersTask_MET_HB.gif">
+<img src="CaloTowersTask_MET_HB.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_SET_HB.gif">
+<img src="CaloTowersTask_SET_HB.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_number_of_fired_towers_HB.gif">
+<img src="CaloTowersTask_number_of_fired_towers_HB.gif" width=32%> </A>
+<p>
+<A HREF= "CaloTowersTask_energy_ECAL_HB.gif">
+<img src="CaloTowersTask_energy_ECAL_HB.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_energy_HCAL_HB.gif">
+<img src="CaloTowersTask_energy_HCAL_HB.gif" width=48%> </A>
+
+<A HREF= "CaloTowersTask_EM_Timing_HB.gif">
+<img src="CaloTowersTask_EM_Timing_HB.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_HAD_Timing_HB.gif">
+<img src="CaloTowersTask_HAD_Timing_HB.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_EM_Energy_Timing_HB.gif">
+<img src="CaloTowersTask_EM_Energy_Timing_HB.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_HAD_Energy_Timing_HB.gif">
+<img src="CaloTowersTask_HAD_Energy_Timing_HB.gif" width=48%> </A>
+
+<A HREF= "number_of_bad_cells_Hcal_HB.gif">
+<img src="number_of_bad_cells_Hcal_HB.gif" width=32%> </A>
+<A HREF= "number_of_recovered_cells_Hcal_HB.gif">
+<img src="number_of_recovered_cells_Hcal_HB.gif" width=32%> </A>
+<A HREF= "number_of_problematic_cells_Hcal_HB.gif">
+<img src="number_of_problematic_cells_Hcal_HB.gif" width=32%> </A>
+
+<hr>
+<p>
+<b> HF CaloTowers </b> <br>
+<p>
+<hr>
+<A HREF= "CaloTowersTask_MET_HF.gif">
+<img src="CaloTowersTask_MET_HF.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_SET_HF.gif">
+<img src="CaloTowersTask_SET_HF.gif" width=32%> </A>
+<A HREF= "CaloTowersTask_number_of_fired_towers_HF.gif">
+<img src="CaloTowersTask_number_of_fired_towers_HF.gif" width=32%> </A>
+<p>
+<A HREF= "CaloTowersTask_energy_ECAL_HF.gif">
+<img src="CaloTowersTask_energy_ECAL_HF.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_energy_HCAL_HF.gif">
+<img src="CaloTowersTask_energy_HCAL_HF.gif" width=48%> </A>
+
+<A HREF= "CaloTowersTask_EM_Timing_HF.gif">
+<img src="CaloTowersTask_EM_Timing_HF.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_HAD_Timing_HF.gif">
+<img src="CaloTowersTask_HAD_Timing_HF.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_EM_Energy_Timing_HF.gif">
+<img src="CaloTowersTask_EM_Energy_Timing_HF.gif" width=48%> </A>
+<A HREF= "CaloTowersTask_HAD_Energy_Timing_HF.gif">
+<img src="CaloTowersTask_HAD_Energy_Timing_HF.gif" width=48%> </A>
+
+<A HREF= "number_of_bad_cells_Hcal_HF.gif">
+<img src="number_of_bad_cells_Hcal_HF.gif" width=32%> </A>
+<A HREF= "number_of_recovered_cells_Hcal_HF.gif">
+<img src="number_of_recovered_cells_Hcal_HF.gif" width=32%> </A>
+<A HREF= "number_of_problematic_cells_Hcal_HF.gif">
+<img src="number_of_problematic_cells_Hcal_HF.gif" width=32%> </A>
+
+<hr>
+<p>
+<b> CaloTower Occupancy </b> <br>
+<p>
+<hr>
+<A HREF= "CaloTowersTask_occupancy_vs_ieta.gif">
+<img src="CaloTowersTask_occupancy_vs_ieta.gif" width=48%> </A>
+
+<hr>
+<p>
+<b> Ecal CaloTower cells </b> <br>
+<p>
+<hr>
+<A HREF= "number_of_bad_cells_Ecal_EB.gif">
+<img src="number_of_bad_cells_Ecal_EB.gif" width=32%> </A>
+<A HREF= "number_of_recovered_cells_Ecal_EB.gif">
+<img src="number_of_recovered_cells_Ecal_EB" width=32%> </A>
+<A HREF= "number_of_problematic_cells_Ecal_EB.gif">
+<img src="number_of_problematic_cells_Ecal_EB.gif" width=32%> </A>
+<A HREF= "number_of_bad_cells_Ecal_EE.gif">
+<img src="number_of_bad_cells_Ecal_EE.gif" width=32%> </A>
+<A HREF= "number_of_recovered_cells_Ecal_EE.gif">
+<img src="number_of_recovered_cells_Ecal_EE.gif" width=32%> </A>
+<A HREF= "number_of_problematic_cells_Ecal_EE.gif">
+<img src="number_of_problematic_cells_Ecal_EE.gif" width=32%> </A>
