@@ -2099,7 +2099,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 1200.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2170,7 +2170,7 @@
         "rangeMediumPileup": {
             "rebin": 5,
             "xAxisMax": 700.0,
-            "xAxisMin": 0.0,
+            "xAxisMin": -50.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2239,8 +2239,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 200.0,
-            "xAxisMin": 0.0,
+            "xAxisMax": 300.0,
+            "xAxisMin": -100.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2309,7 +2309,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 5000.0,
+            "xAxisMax": 3000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2519,8 +2519,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 3500.0,
-            "xAxisMin": 1000.0,
+            "xAxisMax": 2000.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -2589,7 +2589,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 2500.0,
+            "xAxisMax": 6000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2799,7 +2799,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 5000.0,
+            "xAxisMax": 6000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3009,7 +3009,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 800.0,
+            "xAxisMax": 1800.0,
             "xAxisMin": 200.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3079,7 +3079,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 1,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 860.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -4787,43 +4787,43 @@
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HB.gif",
 	"rangeTTBar": {
             "rebin": 2,
-            "xAxisMax": 50.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 2,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 2,
-            "xAxisMax": 500.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 2,
-            "xAxisMax": 50.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 2,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 50.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -4843,43 +4843,43 @@
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HE.gif",
 	"rangeTTBar": {
             "rebin": 5,
-            "xAxisMax": 200.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 5,
-            "xAxisMax": 500.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 5,
-            "xAxisMax": 200.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -4899,43 +4899,43 @@
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HF.gif",
 	"rangeTTBar": {
             "rebin": 2,
-            "xAxisMax": 700.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 5,
-            "xAxisMax": 700.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 50.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -4955,43 +4955,43 @@
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HO.gif",
 	"rangeTTBar": {
             "rebin": 0.1,
-            "xAxisMax": 50.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 1,
-            "xAxisMax": 200.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 1,
-            "xAxisMax": 80.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 1,
-            "xAxisMax": 10.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 1,
-            "xAxisMax": 200.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 0.1,
-            "xAxisMax": 60.0,
-            "xAxisMin": -1.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -5963,43 +5963,43 @@
         "outLabel": "HcalDigiTask_signal_amplitude_HE.gif",
 	"rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 2500.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 5,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2500.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -6187,43 +6187,43 @@
         "outLabel": "HcalDigiTask_signal_amplitude_depth1_HE.gif",
 	"rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 2500.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2500.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -6467,43 +6467,43 @@
         "outLabel": "HcalDigiTask_signal_amplitude_depth2_HE.gif",
 	"rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 500000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -6691,43 +6691,43 @@
         "outLabel": "HcalDigiTask_signal_amplitude_depth3_HE.gif",
 	"rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 1000000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 500000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
 	"rangeLow": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -2000.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -7678,7 +7678,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 1,
-            "xAxisMax": 1500,
+            "xAxisMax": 2000,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -9932,8 +9932,8 @@
         "outLabel": "RecHits_timing_HO.gif",
 	"rangeTTBar": {
             "rebin": 1,
-            "xAxisMax": 100.0,
-            "xAxisMin": -40.0,
+            "xAxisMax": 80.0,
+            "xAxisMin": -80.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -9981,8 +9981,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 0.1,
-            "xAxisMax": 100.0,
-            "xAxisMin": -40.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -10324,7 +10324,7 @@
         "outLabel": "N_HB.gif",
 	"rangeTTBar": {
             "rebin": 1,
-            "xAxisMax": 10000.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -10394,7 +10394,7 @@
         "outLabel": "N_HE.gif",
 	"rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 400.0,
+            "xAxisMax": 1000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -10464,7 +10464,7 @@
         "outLabel": "N_HF.gif",
 	"rangeTTBar": {
             "rebin": 1,
-            "xAxisMax": 1800.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -18002,64 +18002,64 @@
         "outLabel": "M2Log10Chi2_of_rechits_HB.gif",
         "rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 1,
-            "xAxisMax": 100.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeJetHT": {
             "rebin": 10,
-            "xAxisMax": 1000.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
        "rangeZeroBias": {
             "rebin": 5,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeZeroBias": {
             "rebin": 1,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 600.0,
-            "xAxisMin": -70.0,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -18079,66 +18079,66 @@
         "outLabel": "M2Log10Chi2_of_rechits_HE.gif",
         "rangeTTBar": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeHighPtQCD": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeQCD": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 1,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeJetHT": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
        "rangeZeroBias": {
             "rebin": 5,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeZeroBias": {
             "rebin": 1,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 50.0,
-            "xAxisMin": -20.0,
-            "yAxisMax": 50.0,
-            "yAxisMin": -20.0
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
         },
         "ratioFlag": 1,
         "refColor": 2,
