@@ -2099,7 +2099,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 1200.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2519,7 +2519,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -4374,7 +4374,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 15000.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -6054,7 +6054,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 2,
-            "xAxisMax": 6000.0,
+            "xAxisMax": 8000.0,
             "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -18001,21 +18001,21 @@
         "normFlag": "Norm",
         "outLabel": "M2Log10Chi2_of_rechits_HB.gif",
         "rangeTTBar": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeHighPtQCD": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeQCD": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
@@ -18029,21 +18029,21 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeJetHT": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
        "rangeZeroBias": {
-            "rebin": 5,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
@@ -18057,7 +18057,7 @@
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
@@ -18078,21 +18078,21 @@
         "normFlag": "Norm",
         "outLabel": "M2Log10Chi2_of_rechits_HE.gif",
         "rangeTTBar": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeHighPtQCD": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeQCD": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
@@ -18106,21 +18106,21 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeJetHT": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
        "rangeZeroBias": {
-            "rebin": 5,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
@@ -18134,7 +18134,7 @@
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
-            "rebin": 10,
+            "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
