@@ -10324,7 +10324,7 @@
         "outLabel": "N_HB.gif",
 	"rangeTTBar": {
             "rebin": 1,
-            "xAxisMax": 2000.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -10373,7 +10373,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 1,
-            "xAxisMax": 10000.0,
+            "xAxisMax": -1.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
