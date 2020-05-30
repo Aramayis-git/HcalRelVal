@@ -18145,5 +18145,159 @@
         "statFlag": "Statrv",
         "valColor": 1,
         "xAxisTitle": "HcalRecHitTask_M2Log10Chi2_of_rechits_HE"
+    },
+    "HcalRecHitTask/HcalRecHitTask_Log10Chi2_vs_energy_profile_HB": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "normFlag": "Norm",
+        "outLabel": "HcalRecHitTask_Log10Chi2_vs_energy_profile_HB.gif",
+        "rangeTTBar": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeHighPtQCD": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeQCD": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeJetHT": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+       "rangeZeroBias": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeZeroBias": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalRecHitTask_Log10Chi2_vs_energy_profile_HB"
+    },
+    "HcalRecHitTask/HcalRecHitTask_Log10Chi2_vs_energy_profile_HE": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "normFlag": "Norm",
+        "outLabel": "HcalRecHitTask_Log10Chi2_vs_energy_profile_HE.gif",
+        "rangeTTBar": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeHighPtQCD": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeQCD": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeJetHT": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+       "rangeZeroBias": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeZeroBias": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalRecHitTask_Log10Chi2_vs_energy_profile_HE"
     }
 }
